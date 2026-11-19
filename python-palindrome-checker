@@ -1,0 +1,13 @@
+text = input("Enter a word or number: ")
+reverse = text[::-1]
+if text == reverse:
+    print(text, "is a Palindrome")
+else:
+    print(text, "is not a Palindrome")
+
+
+
+OUTPUT:
+
+Enter a word or number: madam
+madam is a Palindrome
